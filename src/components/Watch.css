@@ -1,0 +1,42 @@
+.watch__date {
+  text-align: center;
+}
+
+.watch__time {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 0.6rem;
+}
+
+.watch__formats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3.2rem;
+}
+
+.watch__formats__item {
+  border: 1px solid #e6ecf5;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  background: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+}
+
+.watch__formats__item:hover {
+  outline: none;
+}
+
+.watch__formats__item--selected {
+  background: #172b4d;
+  color: #ff783f;
+}
+
+.watch__formats__item:focus {
+  outline: none;
+}
