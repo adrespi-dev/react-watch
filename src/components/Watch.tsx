@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Watch.css';
 import { format } from 'date-fns';
 
-const timeFormat12 = `hh:mm:ss`;
-const timeFormat24 = `H:mm:ss a`;
+const timeFormat12 = `hh:mm:ss a`;
+const timeFormat24 = `H:mm:ss`;
 
 const Watch: React.FC<{ date: Date }> = ({ date }) => {
   const [timeFormat, setTimeFormat] = useState(timeFormat24);
